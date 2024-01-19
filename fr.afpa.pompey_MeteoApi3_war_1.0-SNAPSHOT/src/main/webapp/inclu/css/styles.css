@@ -1,0 +1,86 @@
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    #row1, #row2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 80%;
+      margin: 20px 0;
+    }
+
+    #row1 div, #row2 div {
+      width: 48%;
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    #map-container {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    #map {
+      width: 50%;
+      height: 300px;
+    }
+
+    #weatherContainer {
+      display: flex;
+      align-items: center;
+    }
+
+    #weatherIconContainer {
+      background-color: #cccccc; /* Fond bleu */
+      padding: 10px; /* Ajout de l'espace autour de l'icône */
+      border-radius: 5px; /* Coins arrondis */
+    }
+
+    #weatherIcon {
+      width: 50px;
+      height: 50px;
+    }
+
+    #villeName {
+      margin-left: 10px;
+      font-weight: bold;
+    }
+
+    #currentDateTime {
+      margin-left: 10px;
+    }
+
+    #hourlyForecast {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .hourly-forecast-item {
+      width: 80%;
+      margin-left: 0;
+      margin-right: auto;
+      text-align: center;
+    }
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
